@@ -1,0 +1,48 @@
+M:\Dot.Net project\DotNet2026_9134_4203\bin\DalTest.exe
+M:\Dot.Net project\DotNet2026_9134_4203\bin\DalTest.deps.json
+M:\Dot.Net project\DotNet2026_9134_4203\bin\DalTest.runtimeconfig.json
+M:\Dot.Net project\DotNet2026_9134_4203\bin\DalTest.dll
+M:\Dot.Net project\DotNet2026_9134_4203\bin\DalTest.pdb
+M:\Dot.Net project\DotNet2026_9134_4203\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
+M:\Dot.Net project\DotNet2026_9134_4203\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+M:\Dot.Net project\DotNet2026_9134_4203\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
+M:\Dot.Net project\DotNet2026_9134_4203\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
+M:\Dot.Net project\DotNet2026_9134_4203\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
+M:\Dot.Net project\DotNet2026_9134_4203\DalTest\obj\Debug\DalTest.csproj.Up2Date
+M:\Dot.Net project\DotNet2026_9134_4203\DalTest\obj\Debug\DalTest.dll
+M:\Dot.Net project\DotNet2026_9134_4203\DalTest\obj\Debug\refint\DalTest.dll
+M:\Dot.Net project\DotNet2026_9134_4203\DalTest\obj\Debug\DalTest.pdb
+M:\Dot.Net project\DotNet2026_9134_4203\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
+M:\Dot.Net project\DotNet2026_9134_4203\DalTest\obj\Debug\ref\DalTest.dll
+M:\Seminar\Handesaim\14\tehilaaizen\Dot.Net project\DotNet2026_9134_4203\bin\DalTest.exe
+M:\Seminar\Handesaim\14\tehilaaizen\Dot.Net project\DotNet2026_9134_4203\bin\DalTest.deps.json
+M:\Seminar\Handesaim\14\tehilaaizen\Dot.Net project\DotNet2026_9134_4203\bin\DalTest.runtimeconfig.json
+M:\Seminar\Handesaim\14\tehilaaizen\Dot.Net project\DotNet2026_9134_4203\bin\DalTest.dll
+M:\Seminar\Handesaim\14\tehilaaizen\Dot.Net project\DotNet2026_9134_4203\bin\DalTest.pdb
+M:\Seminar\Handesaim\14\tehilaaizen\Dot.Net project\DotNet2026_9134_4203\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
+M:\Seminar\Handesaim\14\tehilaaizen\Dot.Net project\DotNet2026_9134_4203\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+M:\Seminar\Handesaim\14\tehilaaizen\Dot.Net project\DotNet2026_9134_4203\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
+M:\Seminar\Handesaim\14\tehilaaizen\Dot.Net project\DotNet2026_9134_4203\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
+M:\Seminar\Handesaim\14\tehilaaizen\Dot.Net project\DotNet2026_9134_4203\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
+M:\Seminar\Handesaim\14\tehilaaizen\Dot.Net project\DotNet2026_9134_4203\DalTest\obj\Debug\DalTest.csproj.Up2Date
+M:\Seminar\Handesaim\14\tehilaaizen\Dot.Net project\DotNet2026_9134_4203\DalTest\obj\Debug\DalTest.dll
+M:\Seminar\Handesaim\14\tehilaaizen\Dot.Net project\DotNet2026_9134_4203\DalTest\obj\Debug\refint\DalTest.dll
+M:\Seminar\Handesaim\14\tehilaaizen\Dot.Net project\DotNet2026_9134_4203\DalTest\obj\Debug\DalTest.pdb
+M:\Seminar\Handesaim\14\tehilaaizen\Dot.Net project\DotNet2026_9134_4203\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
+M:\Seminar\Handesaim\14\tehilaaizen\Dot.Net project\DotNet2026_9134_4203\DalTest\obj\Debug\ref\DalTest.dll
+E:\DotNet2026_9134_4203\bin\DalTest.exe
+E:\DotNet2026_9134_4203\bin\DalTest.deps.json
+E:\DotNet2026_9134_4203\bin\DalTest.runtimeconfig.json
+E:\DotNet2026_9134_4203\bin\DalTest.dll
+E:\DotNet2026_9134_4203\bin\DalTest.pdb
+E:\DotNet2026_9134_4203\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
+E:\DotNet2026_9134_4203\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+E:\DotNet2026_9134_4203\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
+E:\DotNet2026_9134_4203\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
+E:\DotNet2026_9134_4203\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
+E:\DotNet2026_9134_4203\DalTest\obj\Debug\DalTest.csproj.Up2Date
+E:\DotNet2026_9134_4203\DalTest\obj\Debug\DalTest.dll
+E:\DotNet2026_9134_4203\DalTest\obj\Debug\refint\DalTest.dll
+E:\DotNet2026_9134_4203\DalTest\obj\Debug\DalTest.pdb
+E:\DotNet2026_9134_4203\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
+E:\DotNet2026_9134_4203\DalTest\obj\Debug\ref\DalTest.dll

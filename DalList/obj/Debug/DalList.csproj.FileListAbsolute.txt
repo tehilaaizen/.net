@@ -1,0 +1,39 @@
+M:\Dot.Net project\DotNet2026_9134_4203\bin\DalList.deps.json
+M:\Dot.Net project\DotNet2026_9134_4203\bin\DalList.dll
+M:\Dot.Net project\DotNet2026_9134_4203\bin\DalList.pdb
+M:\Dot.Net project\DotNet2026_9134_4203\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+M:\Dot.Net project\DotNet2026_9134_4203\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+M:\Dot.Net project\DotNet2026_9134_4203\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+M:\Dot.Net project\DotNet2026_9134_4203\DalList\obj\Debug\DalList.AssemblyInfo.cs
+M:\Dot.Net project\DotNet2026_9134_4203\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+M:\Dot.Net project\DotNet2026_9134_4203\DalList\obj\Debug\DalList.csproj.Up2Date
+M:\Dot.Net project\DotNet2026_9134_4203\DalList\obj\Debug\DalList.dll
+M:\Dot.Net project\DotNet2026_9134_4203\DalList\obj\Debug\refint\DalList.dll
+M:\Dot.Net project\DotNet2026_9134_4203\DalList\obj\Debug\DalList.pdb
+M:\Dot.Net project\DotNet2026_9134_4203\DalList\obj\Debug\ref\DalList.dll
+M:\Seminar\Handesaim\14\tehilaaizen\Dot.Net project\DotNet2026_9134_4203\bin\DalList.deps.json
+M:\Seminar\Handesaim\14\tehilaaizen\Dot.Net project\DotNet2026_9134_4203\bin\DalList.dll
+M:\Seminar\Handesaim\14\tehilaaizen\Dot.Net project\DotNet2026_9134_4203\bin\DalList.pdb
+M:\Seminar\Handesaim\14\tehilaaizen\Dot.Net project\DotNet2026_9134_4203\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+M:\Seminar\Handesaim\14\tehilaaizen\Dot.Net project\DotNet2026_9134_4203\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+M:\Seminar\Handesaim\14\tehilaaizen\Dot.Net project\DotNet2026_9134_4203\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+M:\Seminar\Handesaim\14\tehilaaizen\Dot.Net project\DotNet2026_9134_4203\DalList\obj\Debug\DalList.AssemblyInfo.cs
+M:\Seminar\Handesaim\14\tehilaaizen\Dot.Net project\DotNet2026_9134_4203\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+M:\Seminar\Handesaim\14\tehilaaizen\Dot.Net project\DotNet2026_9134_4203\DalList\obj\Debug\DalList.csproj.Up2Date
+M:\Seminar\Handesaim\14\tehilaaizen\Dot.Net project\DotNet2026_9134_4203\DalList\obj\Debug\DalList.dll
+M:\Seminar\Handesaim\14\tehilaaizen\Dot.Net project\DotNet2026_9134_4203\DalList\obj\Debug\refint\DalList.dll
+M:\Seminar\Handesaim\14\tehilaaizen\Dot.Net project\DotNet2026_9134_4203\DalList\obj\Debug\DalList.pdb
+M:\Seminar\Handesaim\14\tehilaaizen\Dot.Net project\DotNet2026_9134_4203\DalList\obj\Debug\ref\DalList.dll
+E:\DotNet2026_9134_4203\bin\DalList.deps.json
+E:\DotNet2026_9134_4203\bin\DalList.dll
+E:\DotNet2026_9134_4203\bin\DalList.pdb
+E:\DotNet2026_9134_4203\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+E:\DotNet2026_9134_4203\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+E:\DotNet2026_9134_4203\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+E:\DotNet2026_9134_4203\DalList\obj\Debug\DalList.AssemblyInfo.cs
+E:\DotNet2026_9134_4203\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+E:\DotNet2026_9134_4203\DalList\obj\Debug\DalList.csproj.Up2Date
+E:\DotNet2026_9134_4203\DalList\obj\Debug\DalList.dll
+E:\DotNet2026_9134_4203\DalList\obj\Debug\refint\DalList.dll
+E:\DotNet2026_9134_4203\DalList\obj\Debug\DalList.pdb
+E:\DotNet2026_9134_4203\DalList\obj\Debug\ref\DalList.dll
