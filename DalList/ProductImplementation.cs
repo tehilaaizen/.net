@@ -31,20 +31,8 @@ namespace Dal
         }
         public void Update(Product product)
         {
-            if (DataSource.products != null)
-            {
-                foreach (Product p in DataSource.products)
-                {
-                    if (product != null && product.id==p.id)
-                    {
-                        DataSource.products.Remove(p);
-                        DataSource.products.Add(product);
-                        return;
-                    }
-                       
-                }
-                throw new DalIdNotFoundException("product not found");
-            }
+            Delete(product.id);
+            DataSource.products.Add(product);
         }
         public void Delete(int id)
         {
@@ -52,7 +40,8 @@ namespace Dal
             {
                 foreach (Product p in DataSource.products)
                 {
-                    if (p != null && p.id == id) { 
+                    if (p != null && p.id == id)
+                    {
                         DataSource.products.Remove(p);
                         return;
                     }

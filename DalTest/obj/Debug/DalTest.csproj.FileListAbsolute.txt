@@ -46,3 +46,20 @@ E:\DotNet2026_9134_4203\DalTest\obj\Debug\refint\DalTest.dll
 E:\DotNet2026_9134_4203\DalTest\obj\Debug\DalTest.pdb
 E:\DotNet2026_9134_4203\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
 E:\DotNet2026_9134_4203\DalTest\obj\Debug\ref\DalTest.dll
+M:\dot.net project\dot.net-progect-rachely-and-tehila\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
+M:\dot.net project\dot.net-progect-rachely-and-tehila\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+M:\dot.net project\dot.net-progect-rachely-and-tehila\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
+M:\dot.net project\dot.net-progect-rachely-and-tehila\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
+M:\dot.net project\dot.net-progect-rachely-and-tehila\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
+M:\dot.net project\dot.net-progect-rachely-and-tehila\DalTest\obj\Debug\DalTest.sourcelink.json
+M:\dot.net project\dot.net-progect-rachely-and-tehila\DalTest\obj\Debug\DalTest.dll
+M:\dot.net project\dot.net-progect-rachely-and-tehila\DalTest\obj\Debug\refint\DalTest.dll
+M:\dot.net project\dot.net-progect-rachely-and-tehila\DalTest\obj\Debug\DalTest.pdb
+M:\dot.net project\dot.net-progect-rachely-and-tehila\bin\DalTest.exe
+M:\dot.net project\dot.net-progect-rachely-and-tehila\bin\DalTest.deps.json
+M:\dot.net project\dot.net-progect-rachely-and-tehila\bin\DalTest.runtimeconfig.json
+M:\dot.net project\dot.net-progect-rachely-and-tehila\bin\DalTest.dll
+M:\dot.net project\dot.net-progect-rachely-and-tehila\bin\DalTest.pdb
+M:\dot.net project\dot.net-progect-rachely-and-tehila\DalTest\obj\Debug\DalTest.csproj.Up2Date
+M:\dot.net project\dot.net-progect-rachely-and-tehila\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
+M:\dot.net project\dot.net-progect-rachely-and-tehila\DalTest\obj\Debug\ref\DalTest.dll

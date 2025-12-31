@@ -1,6 +1,6 @@
 ﻿namespace DalApi;
 using DO;
-public interface Icustomer
+public interface Icustomer : ICrud<Customer>
 {
     int Create(Customer customer);
     Customer? Read(int id);

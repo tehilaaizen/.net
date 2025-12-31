@@ -1,6 +1,6 @@
 ﻿namespace DalApi;
 using DO;
-public interface Isale
+public interface Isale:ICrud<Sale>
 {
     int Create(Sale sale);
     Sale? Read(int id);

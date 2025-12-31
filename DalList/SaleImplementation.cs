@@ -31,20 +31,8 @@ namespace Dal
         }
         public void Update(Sale sale)
         {
-            if (DataSource.sales != null)
-            {
-                foreach (Sale s in DataSource.sales)
-                {
-                    if (sale != null && sale.id == s.id)
-                    {
-                        DataSource.sales.Remove(s);
-                        DataSource.sales.Add(sale);
-                        return;
-                    }
-
-                }
-                throw new DalIdNotFoundException("sales not found");
-            }
+            Delete(sale.id);
+            DataSource.sales.Add(sale);
         }
         public void Delete(int id)
         {

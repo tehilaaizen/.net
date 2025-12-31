@@ -37,20 +37,8 @@ namespace Dal
         }
         public void Update(Customer customer)
         {
-            if (DataSource.customers != null)
-            {
-                foreach (Customer c in DataSource.customers)
-                {
-                    if (customer != null && customer.id == c.id)
-                    {
-                        DataSource.customers.Remove(c);
-                        DataSource.customers.Add(customer);
-                        return;
-                    }
-
-                }
-                throw new DalIdNotFoundException("customer not found");
-            }
+            Delete(customer.id);
+            DataSource.customers.Add(customer);          
         }
         public void Delete(int id)
         {

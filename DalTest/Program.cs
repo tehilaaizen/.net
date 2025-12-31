@@ -1,17 +1,17 @@
 ﻿using DO;
 using DalApi;
+using Dal;
 namespace DalTest
 {
     internal class Program
     {
-        static private Icustomer customers = new CustomerImplementation();
-        static private Iproduct products = new ProductImplementation();
-        static private Isale sales = new SaleImplementation();
+        
+        static private IDal s_dal;
         static void Main(string[] args)
         {
             try
             {
-                Initialization.Initialize(products, customers, sales); 
+                Initialization.Initialize(s_dal); 
                 PrintMainMenu();
             }
             catch (Exception ex)
@@ -87,17 +87,17 @@ namespace DalTest
         static void CreateProduct()
         {
             Product product=NewProduct();
-            products.Create(product);
+            s_dal.product.Create(product);
         }
         static void CreateCustomer()
         {
             Customer customer=NewCustomer();
-            customers.Create(customer);
+            s_dal.customer.Create(customer);
         }
         static void CreateSale()
         {
             Sale sale=NewSale();
-            sales.Create(sale);
+            s_dal.sale.Create(sale);
         }
         static void Create(string item)
         {
@@ -118,21 +118,21 @@ namespace DalTest
         {
             Console.WriteLine("insert product id to read");
             int id=int.Parse(Console.ReadLine());
-            Product p= products.Read(id);
+            Product p= s_dal.product.Read(id);
             PrintProduct(p);
         }
         static void ReadCustomer()
         {
             Console.WriteLine("insert customer id to read");
             int id = int.Parse(Console.ReadLine());
-            Customer c = customers.Read(id);
+            Customer c = s_dal.customer.Read(id);
             PrintCustomer(c);
         }
         static void ReadSale()
         {
             Console.WriteLine("insert sale id to read");
             int id = int.Parse(Console.ReadLine());
-            Sale s = sales.Read(id);
+            Sale s = s_dal.sale.Read(id);
             PrintSale(s);
         }
         static void Read(string item)
@@ -153,17 +153,17 @@ namespace DalTest
         static void UpdateProduct()
         {
             Product p=NewProduct();
-            products.Update(p);
+            s_dal.product.Update(p);
         }
         static void UpdateCustomer()
         {
             Customer c=new Customer();
-            customers.Update(c);
+            s_dal.customer.Update(c);
         }
         static void UpdateSale()
         {
             Sale s=new Sale();
-            sales.Update(s);
+            s_dal.sale.Update(s);
         }
         static void Update(string item)
         {
@@ -184,19 +184,19 @@ namespace DalTest
         {
             Console.WriteLine("enter product id to delete");
             int id=int.Parse(Console.ReadLine());
-            products.Delete(id);
+            s_dal.product.Delete(id);
         }
         static void DeleteCustomer()
         {
             Console.WriteLine("enter customer id to delete");
             int id = int.Parse(Console.ReadLine());
-            customers.Delete(id);
+            s_dal.customer.Delete(id);
         }
         static void DeleteSale()
         {
             Console.WriteLine("enter sale id to delete");
             int id = int.Parse(Console.ReadLine());
-            sales.Delete(id);
+            s_dal.sale.Delete(id);
         }
         static void Delete(string item)
         {
