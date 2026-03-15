@@ -4,7 +4,8 @@ public interface Iproduct : ICrud<Product>
 {
     int Create(Product product);
     Product? Read(int id);
-    List<Product> ReadAll();
+    Product? Read(Func<Product, bool> filter);
+    List<Product?> ReadAll(Func<Product,bool>?filter);
     void Update(Product product);
     void Delete(int id);
 }

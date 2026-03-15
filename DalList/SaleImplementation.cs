@@ -23,11 +23,19 @@ namespace Dal
             }
             throw new DalIdNotFoundException("sale not found");
         }
-        public List<Sale> ReadAll()
+        public Sale? Read(Func<Sale, bool> filter)
+        {
+            if(DataSource.sales == null) 
+                return null;
+            return DataSource.sales.First(filter);
+        }
+        public List<Sale?>? ReadAll(Func<Sale,bool>?filter)
         {
             if (DataSource.sales == null)
                 return null;
-            return new List<Sale>(DataSource.sales);
+            if(filter == null)
+                return DataSource.sales.ToList();
+            return DataSource.sales.Where(filter).ToList();
         }
         public void Update(Sale sale)
         {

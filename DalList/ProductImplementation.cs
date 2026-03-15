@@ -1,5 +1,6 @@
-﻿using DO;
-using DalApi;
+﻿using DalApi;
+using DO;
+
 namespace Dal
 {
     internal class ProductImplementation : Iproduct
@@ -23,11 +24,19 @@ namespace Dal
             }
             throw new DalIdNotFoundException("product not found");
         }
-        public List<Product> ReadAll()
+        public Product? Read(Func<Product, bool> filter)
+        {
+            if(DataSource.products == null) 
+                return null;
+            return DataSource.products.First(filter);
+        }
+        public List<Product?> ReadAll(Func<Product,bool>?filter=null)
         {
             if (DataSource.products == null)
                 return null;
-            return new List<Product>(DataSource.products);
+            if (filter == null)
+                return DataSource.products.ToList();
+            return DataSource.products.Where(filter).ToList();
         }
         public void Update(Product product)
         {

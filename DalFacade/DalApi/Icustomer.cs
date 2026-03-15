@@ -4,7 +4,8 @@ public interface Icustomer : ICrud<Customer>
 {
     int Create(Customer customer);
     Customer? Read(int id);
-    List<Customer> ReadAll();
+    Customer? Read(Func<Customer, bool> filter);
+    List<Customer?> ReadAll(Func<Customer,bool>? filter);
     void Update(Customer customer);
     void Delete(int id);
 

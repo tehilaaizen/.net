@@ -29,11 +29,19 @@ namespace Dal
             }
             throw new DalIdNotFoundException("customer not found");
         }
-        public List<Customer> ReadAll()
+        public Customer? Read(Func<Customer, bool> filter)
         {
             if (DataSource.customers == null)
                 return null;
-            return new List<Customer>(DataSource.customers);
+            return DataSource.customers.First(filter);
+        }
+        public List<Customer?> ReadAll(Func<Customer,bool>?filter)
+        {
+            if (DataSource.customers == null)
+                return null;
+            if (filter == null)
+                return DataSource.customers.ToList();
+            return DataSource.customers.Where(filter).ToList();
         }
         public void Update(Customer customer)
         {
