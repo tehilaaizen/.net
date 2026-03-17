@@ -1,0 +1,16 @@
+C:\tehila\14\DotNet2026_9134_4203\DalXML\bin\Debug\net8.0\DalXML.deps.json
+C:\tehila\14\DotNet2026_9134_4203\DalXML\bin\Debug\net8.0\DalXML.dll
+C:\tehila\14\DotNet2026_9134_4203\DalXML\bin\Debug\net8.0\DalXML.pdb
+C:\tehila\14\DotNet2026_9134_4203\DalXML\bin\Debug\net8.0\DalFacade.dll
+C:\tehila\14\DotNet2026_9134_4203\DalXML\bin\Debug\net8.0\DalFacade.pdb
+C:\tehila\14\DotNet2026_9134_4203\DalXML\obj\Debug\net8.0\DalXML.csproj.AssemblyReference.cache
+C:\tehila\14\DotNet2026_9134_4203\DalXML\obj\Debug\net8.0\DalXML.GeneratedMSBuildEditorConfig.editorconfig
+C:\tehila\14\DotNet2026_9134_4203\DalXML\obj\Debug\net8.0\DalXML.AssemblyInfoInputs.cache
+C:\tehila\14\DotNet2026_9134_4203\DalXML\obj\Debug\net8.0\DalXML.AssemblyInfo.cs
+C:\tehila\14\DotNet2026_9134_4203\DalXML\obj\Debug\net8.0\DalXML.csproj.CoreCompileInputs.cache
+C:\tehila\14\DotNet2026_9134_4203\DalXML\obj\Debug\net8.0\DalXML.sourcelink.json
+C:\tehila\14\DotNet2026_9134_4203\DalXML\obj\Debug\net8.0\DalXML.csproj.Up2Date
+C:\tehila\14\DotNet2026_9134_4203\DalXML\obj\Debug\net8.0\DalXML.dll
+C:\tehila\14\DotNet2026_9134_4203\DalXML\obj\Debug\net8.0\refint\DalXML.dll
+C:\tehila\14\DotNet2026_9134_4203\DalXML\obj\Debug\net8.0\DalXML.pdb
+C:\tehila\14\DotNet2026_9134_4203\DalXML\obj\Debug\net8.0\ref\DalXML.dll

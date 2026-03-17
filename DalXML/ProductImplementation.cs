@@ -6,7 +6,7 @@ namespace Dal;
 internal class ProductImplementation : Iproduct
 {
     private XmlSerializer xmlSerializer=new XmlSerializer(typeof(List<Product>));
-    private const string filePath = "products";
+    private const string filePath = @"products.xml";
     public int Create(Product product)
     {
         List<Product> products= new List<Product>();

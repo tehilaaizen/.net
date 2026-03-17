@@ -42,9 +42,9 @@ namespace DalTest
         public static void Initialize(IDal idal) 
         { 
             s_dal=idal;
-            CreateCustomer();
             CreateProducts();
             CreateSales();
+            CreateCustomer();
         }
     }
 }

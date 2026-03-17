@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCustomer>
+  <Customer>
+    <Id>1</Id>
+    <Name>Shira</Name>
+    <Address>Htamar</Address>
+    <PhoneNumber>089297340</PhoneNumber>
+  </Customer>
+  <Customer>
+    <Id>2</Id>
+    <Name>Chavi</Name>
+    <Address>Rashbi</Address>
+    <PhoneNumber>0527635012</PhoneNumber>
+  </Customer>
+  <Customer>
+    <Id>3</Id>
+    <Name>Sara</Name>
+    <Address>Rambam</Address>
+    <PhoneNumber>089760169</PhoneNumber>
+  </Customer>
+  <Customer>
+    <Id>5</Id>
+    <Name>Lea</Name>
+    <Address>Hazon Eish</Address>
+    <PhoneNumber>0527646008</PhoneNumber>
+  </Customer>
+  <Customer>
+    <Id>10</Id>
+    <Name>efrat</Name>
+    <Address>rabi yehuda anasi 17</Address>
+    <PhoneNumber>0556742276</PhoneNumber>
+  </Customer>
+</ArrayOfCustomer>

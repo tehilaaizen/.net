@@ -6,7 +6,7 @@ namespace Dal;
 internal class SaleImplementation : Isale
 {
     private XmlSerializer xmlSerializer = new XmlSerializer(typeof(List<Sale>));
-    private const string filePath = "sales";
+    private const string filePath = @"sales.xml";
     public int Create(Sale sale)
     {
         List<Sale> sales = new List<Sale>();

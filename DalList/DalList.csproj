@@ -8,7 +8,7 @@
 	  <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
 	  <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
 	  <UseCommonOutputDirectory>treu</UseCommonOutputDirectory>
-    <RootNamespace>"Dal"</RootNamespace>
+    <RootNamespace>Dal</RootNamespace>
     <BaseOutputPath>$(SolutionDir)\bin\</BaseOutputPath>
   </PropertyGroup>
 

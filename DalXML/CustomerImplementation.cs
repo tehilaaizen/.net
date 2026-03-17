@@ -3,12 +3,9 @@ using DO;
 using System.Xml.Linq;
 
 namespace Dal;
-//    string name,
-//    string address,
-//    string phone_number
 internal class CustomerImplementation : Icustomer
 {
-    private const string FILE_PATH= "customers";
+    private const string FILE_PATH = @"customers.xml";
     private const string ID = "Id";
     private const string NAME = "Name";
     private const string ADDRESS = "Address";
@@ -17,16 +14,19 @@ internal class CustomerImplementation : Icustomer
     public int Create(Customer customer)
     {
         XElement customersXml = XElement.Load(FILE_PATH);
-        foreach(XElement c in customersXml.Descendants(CUSTOMER))
+        if (customersXml.Descendants(CUSTOMER).Any())
         {
-            if (int.Parse(c.Attribute(ID).Value) == customer.id)
-                throw new DalIdAlreadyExistsException("customer id already exists");
+            foreach (XElement c in customersXml.Descendants(ID))
+            {
+                if (int.Parse(c.Value) == customer.id)
+                    throw new DalIdAlreadyExistsException("customer id already exists");
+            }
         }
         XElement customerXml = new XElement(CUSTOMER);
-        customerXml.Add(new XElement(ID,customer.id));
+        customerXml.Add(new XElement(ID, customer.id));
         customerXml.Add(new XElement(NAME, customer.name));
         customerXml.Add(new XElement(ADDRESS, customer.address));
-        customerXml.Add(new XElement(PHONE_NUMBER,customer.phone_number));
+        customerXml.Add(new XElement(PHONE_NUMBER, customer.phone_number));
         customersXml.Add(customerXml);
         customersXml.Save(FILE_PATH);
         return customer.id;
@@ -35,7 +35,7 @@ internal class CustomerImplementation : Icustomer
     public void Delete(int id)
     {
         XElement customersXml = XElement.Load(FILE_PATH);
-        XElement idToDelete= customersXml.Descendants(ID).FirstOrDefault(n => int.Parse(n.Value) == id);
+        XElement idToDelete = customersXml.Descendants(ID).FirstOrDefault(n => int.Parse(n.Value) == id);
         if (idToDelete == null)
             throw new DalIdNotFoundException("customer id not found");
         idToDelete.Parent.Remove();
@@ -47,7 +47,7 @@ internal class CustomerImplementation : Icustomer
         XElement customersXml = XElement.Load(FILE_PATH);
         Customer customer;
         XElement idToRead = customersXml.Descendants(ID).FirstOrDefault(n => int.Parse(n.Value) == id);
-        if (idToRead==null)
+        if (idToRead == null)
             throw new DalIdNotFoundException("customer id not found");
         XElement customerToRead = idToRead.Parent;
         customer = new Customer(
@@ -56,14 +56,14 @@ internal class CustomerImplementation : Icustomer
             customerToRead.Attribute(ADDRESS)?.Value,
             customerToRead.Attribute(PHONE_NUMBER)?.Value
             );
-        return customer;  
+        return customer;
     }
 
     public Customer? Read(Func<Customer, bool> filter)
     {
         XElement customersXml = XElement.Load(FILE_PATH);
         List<Customer> customers = new List<Customer>();
-        foreach( XElement idXml in customersXml.Descendants(ID) )
+        foreach (XElement idXml in customersXml.Descendants(ID))
             customers.Add(Read(int.Parse(idXml.Value)));
         return customers.FirstOrDefault(filter);
     }
@@ -74,18 +74,18 @@ internal class CustomerImplementation : Icustomer
         List<Customer> customers = new List<Customer>();
         foreach (XElement idXml in customersXml.Descendants(ID))
             customers.Add(Read(int.Parse(idXml.Value)));
-        if(filter != null)
-            customers=customers.Where(filter).ToList();
+        if (filter != null)
+            customers = customers.Where(filter).ToList();
         return customers;
     }
 
     public void Update(Customer customer)
     {
         XElement customersXml = XElement.Load(FILE_PATH);
-        XElement idToUpdate=customersXml.Descendants(ID).FirstOrDefault(n => int.Parse(n.Value) == customer.id);
+        XElement idToUpdate = customersXml.Descendants(ID).FirstOrDefault(n => int.Parse(n.Value) == customer.id);
         if (idToUpdate == null)
             throw new DalIdNotFoundException("customer id not found");
-        XElement customerToUpdate=idToUpdate.Parent;
+        XElement customerToUpdate = idToUpdate.Parent;
         customerToUpdate.Element(NAME).SetValue(customer.name);
         customerToUpdate.Element(ADDRESS).SetValue(customer.address);
         customerToUpdate.Element(PHONE_NUMBER).SetValue(customer.phone_number);
