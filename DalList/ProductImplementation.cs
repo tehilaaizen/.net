@@ -28,7 +28,7 @@ namespace Dal
         {
             if(DataSource.products == null) 
                 return null;
-            return DataSource.products.First(filter);
+            return DataSource.products.FirstOrDefault(filter);
         }
         public List<Product?> ReadAll(Func<Product,bool>?filter=null)
         {

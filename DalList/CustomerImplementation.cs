@@ -33,7 +33,7 @@ namespace Dal
         {
             if (DataSource.customers == null)
                 return null;
-            return DataSource.customers.First(filter);
+            return DataSource.customers.FirstOrDefault(filter);
         }
         public List<Customer?> ReadAll(Func<Customer,bool>?filter)
         {

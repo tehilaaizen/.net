@@ -43,3 +43,15 @@ M:\dot.net project\dot.net-progect-rachely-and-tehila\DalFacade\obj\Debug\DalFac
 M:\dot.net project\dot.net-progect-rachely-and-tehila\DalFacade\obj\Debug\refint\DalFacade.dll
 M:\dot.net project\dot.net-progect-rachely-and-tehila\DalFacade\obj\Debug\DalFacade.pdb
 M:\dot.net project\dot.net-progect-rachely-and-tehila\DalFacade\obj\Debug\ref\DalFacade.dll
+C:\tehila\14\DotNet2026_9134_4203\bin\DalFacade.deps.json
+C:\tehila\14\DotNet2026_9134_4203\bin\DalFacade.dll
+C:\tehila\14\DotNet2026_9134_4203\bin\DalFacade.pdb
+C:\tehila\14\DotNet2026_9134_4203\DalFacade\obj\Debug\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+C:\tehila\14\DotNet2026_9134_4203\DalFacade\obj\Debug\DalFacade.AssemblyInfoInputs.cache
+C:\tehila\14\DotNet2026_9134_4203\DalFacade\obj\Debug\DalFacade.AssemblyInfo.cs
+C:\tehila\14\DotNet2026_9134_4203\DalFacade\obj\Debug\DalFacade.csproj.CoreCompileInputs.cache
+C:\tehila\14\DotNet2026_9134_4203\DalFacade\obj\Debug\DalFacade.sourcelink.json
+C:\tehila\14\DotNet2026_9134_4203\DalFacade\obj\Debug\DalFacade.dll
+C:\tehila\14\DotNet2026_9134_4203\DalFacade\obj\Debug\refint\DalFacade.dll
+C:\tehila\14\DotNet2026_9134_4203\DalFacade\obj\Debug\DalFacade.pdb
+C:\tehila\14\DotNet2026_9134_4203\DalFacade\obj\Debug\ref\DalFacade.dll

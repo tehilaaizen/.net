@@ -1,11 +1,9 @@
-﻿namespace DO
+﻿namespace DO;
+public enum Category
 {
-    public enum Category
-    {
-        A,
-        B,
-        C,
-        D,
-        E
-    }
+    A,
+    B,
+    C,
+    D,
+    E
 }

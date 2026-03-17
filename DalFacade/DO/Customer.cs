@@ -1,17 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace DO;
 
-namespace DO
+public record Customer(
+    int id,
+    string name,
+    string address,
+    string phone_number)
 {
-    public record Customer(
-        int id,
-        string name,
-        string address,
-        string phone_number)
-    {
-        public Customer() : this(0, "", "", "") { }
-    }
+    public Customer() : this(0, "", "", "") { }
 }

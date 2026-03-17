@@ -27,7 +27,7 @@ namespace Dal
         {
             if(DataSource.sales == null) 
                 return null;
-            return DataSource.sales.First(filter);
+            return DataSource.sales.FirstOrDefault(filter);
         }
         public List<Sale?>? ReadAll(Func<Sale,bool>?filter)
         {
