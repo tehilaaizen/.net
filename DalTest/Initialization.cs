@@ -39,9 +39,9 @@ namespace DalTest
             }
         }
 
-        public static void Initialize(IDal idal) 
+        public static void Initialize() 
         { 
-            s_dal=idal;
+            s_dal = DalApi.Factory.Get;
             CreateProducts();
             CreateSales();
             CreateCustomer();

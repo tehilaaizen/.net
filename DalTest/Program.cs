@@ -6,7 +6,7 @@ namespace DalTest;
 internal class Program
 {
 
-    static private IDal s_dal = DalXml.Instance;
+    static private IDal s_dal = DalApi.Factory.Get;
     static void Main(string[] args)
     {
         try

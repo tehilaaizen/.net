@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<dal>list</dal>
+	<dal-packeges>
+		<list>DalList</list>
+		<xml>DalXml</xml>
+	</dal-packeges>
+	<ProductNum>1008</ProductNum>
+	<SaleNum>41</SaleNum>
+</config>
