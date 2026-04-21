@@ -1,8 +1,7 @@
 ﻿using DO;
 using DalApi;
-using Dal;
-namespace DalTest;
 
+namespace DalTest;
 internal class Program
 {
 

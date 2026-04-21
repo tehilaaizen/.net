@@ -4,7 +4,7 @@ namespace Dal;
 
 public  sealed class DalXml : IDal
 {
-    public Iproduct product =>  new ProductImplementation();
+    public IProduct product =>  new ProductImplementation();
 
     public Icustomer customer =>  new CustomerImplementation();
 

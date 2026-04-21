@@ -3,7 +3,7 @@ using DO;
 using System.Xml.Serialization;
 
 namespace Dal;
-internal class ProductImplementation : Iproduct
+internal class ProductImplementation : IProduct
 {
     private XmlSerializer xmlSerializer=new XmlSerializer(typeof(List<Product>));
     private const string filePath = @"products.xml";
