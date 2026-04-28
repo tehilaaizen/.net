@@ -7,7 +7,8 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "DalFacade": "1.0.0",
-          "DalList": "1.0.0"
+          "DalList": "1.0.0",
+          "DalXML": "1.0.0"
         },
         "compile": {
           "bin/placeholder/BL.dll": {}
@@ -38,6 +39,19 @@
         "runtime": {
           "bin/placeholder/DalList.dll": {}
         }
+      },
+      "DalXML/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "DalFacade": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DalXML.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DalXML.dll": {}
+        }
       }
     }
   },
@@ -56,6 +70,11 @@
       "type": "project",
       "path": "../DalList/DalList.csproj",
       "msbuildProject": "../DalList/DalList.csproj"
+    },
+    "DalXML/1.0.0": {
+      "type": "project",
+      "path": "../DalXML/DalXML.csproj",
+      "msbuildProject": "../DalXML/DalXML.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -64,23 +83,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\תהילה\\.nuget\\packages\\": {},
+    "C:\\Users\\racheldehaas\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\tehila\\14\\DotNet2026_9134_4203\\BlTest\\BlTest.csproj",
+      "projectUniqueName": "M:\\dot.net project\\New folder\\dot.net-progect-rachely-and-tehila\\BlTest\\BlTest.csproj",
       "projectName": "BlTest",
-      "projectPath": "C:\\tehila\\14\\DotNet2026_9134_4203\\BlTest\\BlTest.csproj",
-      "packagesPath": "C:\\Users\\תהילה\\.nuget\\packages\\",
-      "outputPath": "C:\\tehila\\14\\DotNet2026_9134_4203\\BlTest\\obj\\",
+      "projectPath": "M:\\dot.net project\\New folder\\dot.net-progect-rachely-and-tehila\\BlTest\\BlTest.csproj",
+      "packagesPath": "C:\\Users\\racheldehaas\\.nuget\\packages\\",
+      "outputPath": "M:\\dot.net project\\New folder\\dot.net-progect-rachely-and-tehila\\BlTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\תהילה\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\racheldehaas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -96,8 +115,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\tehila\\14\\DotNet2026_9134_4203\\BL\\BL.csproj": {
-              "projectPath": "C:\\tehila\\14\\DotNet2026_9134_4203\\BL\\BL.csproj"
+            "M:\\dot.net project\\New folder\\dot.net-progect-rachely-and-tehila\\BL\\BL.csproj": {
+              "projectPath": "M:\\dot.net project\\New folder\\dot.net-progect-rachely-and-tehila\\BL\\BL.csproj"
             }
           }
         }
@@ -132,7 +151,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

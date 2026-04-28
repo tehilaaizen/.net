@@ -5,7 +5,6 @@ public record Sale(
     int barcode,
     int min_amount,
     double price,
-
     bool to_members,
     DateTime begin_date,
     DateTime end_date)

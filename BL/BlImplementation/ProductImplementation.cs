@@ -1,42 +1,46 @@
 ﻿using BlApi;
-using BO;
+//using BO.;
 
 namespace BlImplementation;
 
 internal class ProductImplementation : IProduct
 {
-    public int Create(Product product)
+    private DalApi.IDal _dal = DalApi.Factory.Get;
+    public int Create(BO.Product product)
     {
-        throw new NotImplementedException();
+        return _dal.product.Create(product.ConversBoProductToDoProduct());
     }
 
     public void Delete(int id)
     {
-        throw new NotImplementedException();
+        _dal.product.Delete(id);
     }
 
-    public void GetSales(ProductInOrder productInOrder, bool isMember)
+    public void GetSales(BO.ProductInOrder productInOrder, bool isMember)
     {
-        throw new NotImplementedException();
+
     }
 
-    public Product? Read(int id)
+    public BO.Product? Read(int id)
     {
-        throw new NotImplementedException();
+        DO.Product product=_dal.product.Read(id);
+        return product.ConversDoProductToBoProduct();
     }
 
-    public Product? Read(Func<Product, bool> filter)
+    public BO.Product? Read(Func<BO.Product, bool> filter)
     {
-        throw new NotImplementedException();
+        DO.Product product = _dal.product.Read((Func<DO.Product,bool>)filter);
+        return product.ConversDoProductToBoProduct();
+
     }
 
-    public List<Product?> ReadAll(Func<Product, bool>? filter)
+    public List<BO.Product?> ReadAll(Func<BO.Product, bool>? filter)
     {
-        throw new NotImplementedException();
+        
     }
 
-    public void Update(Product product)
+    public void Update(BO.Product product)
     {
-        throw new NotImplementedException();
+        _dal.product.Update(product.ConversBoProductToDoProduct());
     }
 }

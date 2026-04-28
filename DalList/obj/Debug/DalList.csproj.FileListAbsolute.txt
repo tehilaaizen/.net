@@ -65,3 +65,17 @@ C:\tehila\14\DotNet2026_9134_4203\DalList\obj\Debug\DalList.dll
 C:\tehila\14\DotNet2026_9134_4203\DalList\obj\Debug\refint\DalList.dll
 C:\tehila\14\DotNet2026_9134_4203\DalList\obj\Debug\DalList.pdb
 C:\tehila\14\DotNet2026_9134_4203\DalList\obj\Debug\ref\DalList.dll
+M:\dot.net project\New folder\dot.net-progect-rachely-and-tehila\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+M:\dot.net project\New folder\dot.net-progect-rachely-and-tehila\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+M:\dot.net project\New folder\dot.net-progect-rachely-and-tehila\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+M:\dot.net project\New folder\dot.net-progect-rachely-and-tehila\DalList\obj\Debug\DalList.AssemblyInfo.cs
+M:\dot.net project\New folder\dot.net-progect-rachely-and-tehila\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+M:\dot.net project\New folder\dot.net-progect-rachely-and-tehila\DalList\obj\Debug\DalList.sourcelink.json
+M:\dot.net project\New folder\dot.net-progect-rachely-and-tehila\DalList\obj\Debug\DalList.dll
+M:\dot.net project\New folder\dot.net-progect-rachely-and-tehila\DalList\obj\Debug\refint\DalList.dll
+M:\dot.net project\New folder\dot.net-progect-rachely-and-tehila\DalList\obj\Debug\DalList.pdb
+M:\dot.net project\New folder\dot.net-progect-rachely-and-tehila\bin\DalList.deps.json
+M:\dot.net project\New folder\dot.net-progect-rachely-and-tehila\bin\DalList.dll
+M:\dot.net project\New folder\dot.net-progect-rachely-and-tehila\bin\DalList.pdb
+M:\dot.net project\New folder\dot.net-progect-rachely-and-tehila\DalList\obj\Debug\DalList.csproj.Up2Date
+M:\dot.net project\New folder\dot.net-progect-rachely-and-tehila\DalList\obj\Debug\ref\DalList.dll
