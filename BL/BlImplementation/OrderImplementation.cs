@@ -46,15 +46,30 @@ internal class OrderImplementation : IOrder
 
     void CalcTotalPriceForProduct(ProductInOrder productInOrder)
     {
-        
+        int amount=productInOrder.AmountInOrder;
+        List<SaleInProduct> implementedSales = new List<SaleInProduct>();
+        foreach(SaleInProduct sale in productInOrder.Sales)
+        {
+            if (amount < sale.AmountToSale)
+               continue;
+            productInOrder.TotalPrice-=(amount / sale.AmountToSale) *(productInOrder.BasePrice)- sale.Price;
+            implementedSales.Add(sale);
+            amount -= (amount / sale.AmountToSale);
+            if(amount==0) 
+                break;
+        }
+        productInOrder.Sales = implementedSales;
     }
 
     void DoOrder(Order order)
     {
-        throw new NotImplementedException();
+        foreach(ProductInOrder p in order.Products)
+        {
+            
+        }
     }
-
     void SearchSaleForProduct(ProductInOrder productInOrder, bool isMember)
     {
+        productInOrder.Sales=_dal.sale.ReadAll(s=>s.barcode==productInOrder.Id);
     }
 }

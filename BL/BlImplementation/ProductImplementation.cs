@@ -36,7 +36,13 @@ internal class ProductImplementation : IProduct
 
     public List<BO.Product?> ReadAll(Func<BO.Product, bool>? filter)
     {
-        
+        List<DO.Product> list = _dal.product.ReadAll((Func<DO.Product, bool>)filter);
+        List<BO.Product> products = new List<BO.Product>();
+        foreach (DO.Product product in list)
+        {
+            products.Add(product.ConversDoProductToBoProduct());
+        }
+        return products;
     }
 
     public void Update(BO.Product product)
