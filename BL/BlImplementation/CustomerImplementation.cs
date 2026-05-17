@@ -1,42 +1,59 @@
 ﻿using BlApi;
-using BO;
+using DO;
+//using BO;
 
 namespace BlImplementation;
 
 internal class CustomerImplementation : ICustomer
 {
-    public int Create(Customer customer)
+    private DalApi.IDal _dal = DalApi.Factory.Get;
+    public int Create(BO.Customer customer)
     {
-        throw new NotImplementedException();
+        return _dal.customer.Create(customer.ConversBoProductToDoProduct());
     }
 
     public void Delete(int id)
     {
-        throw new NotImplementedException();
+        _dal.product.Delete(id);
     }
 
-    public bool IsExist(Customer customer)
+    public bool IsExist(BO.Customer customer)
     {
-        throw new NotImplementedException();
+        try
+        {
+            _dal.product.Read(customer.Id);
+            return true;
+        }catch (DalIdNotFoundException e)
+        {
+            return false;
+        }
     }
 
-    public Customer? Read(int id)
+    public BO.Customer? Read(int id)
     {
-        throw new NotImplementedException();
+        DO.Customer customer=_dal.customer.Read(id);
+        return customer.ConversDoProductToBoProduct();
     }
 
-    public Customer? Read(Func<Customer, bool> filter)
+    public BO.Customer? Read(Func<BO.Customer, bool> filter)
     {
-        throw new NotImplementedException();
+        DO.Customer customer = _dal.customer.Read((Func<DO.Customer, bool>)filter);
+        return customer.ConversDoProductToBoProduct();
     }
 
-    public List<Customer?> ReadAll(Func<Customer, bool>? filter)
+    public List<BO.Customer?> ReadAll(Func<BO.Customer, bool>? filter)
     {
-        throw new NotImplementedException();
+        List<DO.Customer> customers= _dal.customer.ReadAll((Func<DO.Customer?, bool>)filter);
+        List<BO.Customer> boCustomers=new List<BO.Customer>();
+        foreach (DO.Customer customer in customers)
+        {
+            boCustomers.Add(customer.ConversDoProductToBoProduct());
+        }
+        return boCustomers;
     }
 
-    public void Update(Customer customer)
+    public void Update(BO.Customer customer)
     {
-        throw new NotImplementedException();
+        _dal.customer.Update(customer.ConversBoProductToDoProduct());
     }
 }

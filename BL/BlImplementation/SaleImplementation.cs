@@ -1,37 +1,44 @@
 ﻿using BlApi;
-using BO;
-
 namespace BlImplementation;
 
 internal class SaleImplementation : ISale
 {
-    public int Create(Sale sale)
+    private DalApi.IDal _dal = DalApi.Factory.Get;
+    public int Create(BO.Sale sale)
     {
-        throw new NotImplementedException();
+       return _dal.sale.Create(sale.ConversBoSaleToDoSale());
     }
 
     public void Delete(int id)
     {
-        throw new NotImplementedException();
+        _dal.sale.Delete(id);
     }
 
-    public Sale? Read(int id)
+    public BO.Sale? Read(int id)
     {
-        throw new NotImplementedException();
+        DO.Sale sale=_dal.sale.Read(id);
+        return sale.ConversDoSaleToBoSale();
     }
 
-    public Sale? Read(Func<Sale, bool> filter)
+    public BO.Sale? Read(Func<BO.Sale, bool> filter)
     {
-        throw new NotImplementedException();
+        DO.Sale sale = _dal.sale.Read((Func<DO.Sale,bool>)filter);
+        return sale.ConversDoSaleToBoSale();
     }
 
-    public List<Sale?> ReadAll(Func<Sale, bool>? filter)
+    public List<BO.Sale?> ReadAll(Func<BO.Sale, bool>? filter)
     {
-        throw new NotImplementedException();
+        List<DO.Sale> list = _dal.sale.ReadAll((Func<DO.Sale, bool>)filter);
+        List<BO.Sale> sales = new List<BO.Sale>();
+        foreach(DO.Sale sale in list)
+        {
+            sales.Add(sale.ConversDoSaleToBoSale());
+        }
+        return sales;
     }
 
-    public void Update(Sale sale)
+    public void Update(BO.Sale sale)
     {
-        throw new NotImplementedException();
+        _dal.sale.Update(sale.ConversBoSaleToDoSale());
     }
 }

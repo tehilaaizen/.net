@@ -14,3 +14,19 @@ C:\tehila\14\DotNet2026_9134_4203\DalXML\obj\Debug\net8.0\DalXML.dll
 C:\tehila\14\DotNet2026_9134_4203\DalXML\obj\Debug\net8.0\refint\DalXML.dll
 C:\tehila\14\DotNet2026_9134_4203\DalXML\obj\Debug\net8.0\DalXML.pdb
 C:\tehila\14\DotNet2026_9134_4203\DalXML\obj\Debug\net8.0\ref\DalXML.dll
+M:\dot.net project\New folder\dot.net-progect-rachely-and-tehila\DalXML\bin\Debug\net8.0\DalXML.deps.json
+M:\dot.net project\New folder\dot.net-progect-rachely-and-tehila\DalXML\bin\Debug\net8.0\DalXML.dll
+M:\dot.net project\New folder\dot.net-progect-rachely-and-tehila\DalXML\bin\Debug\net8.0\DalXML.pdb
+M:\dot.net project\New folder\dot.net-progect-rachely-and-tehila\DalXML\bin\Debug\net8.0\DalFacade.dll
+M:\dot.net project\New folder\dot.net-progect-rachely-and-tehila\DalXML\bin\Debug\net8.0\DalFacade.pdb
+M:\dot.net project\New folder\dot.net-progect-rachely-and-tehila\DalXML\obj\Debug\net8.0\DalXML.csproj.AssemblyReference.cache
+M:\dot.net project\New folder\dot.net-progect-rachely-and-tehila\DalXML\obj\Debug\net8.0\DalXML.GeneratedMSBuildEditorConfig.editorconfig
+M:\dot.net project\New folder\dot.net-progect-rachely-and-tehila\DalXML\obj\Debug\net8.0\DalXML.AssemblyInfoInputs.cache
+M:\dot.net project\New folder\dot.net-progect-rachely-and-tehila\DalXML\obj\Debug\net8.0\DalXML.AssemblyInfo.cs
+M:\dot.net project\New folder\dot.net-progect-rachely-and-tehila\DalXML\obj\Debug\net8.0\DalXML.csproj.CoreCompileInputs.cache
+M:\dot.net project\New folder\dot.net-progect-rachely-and-tehila\DalXML\obj\Debug\net8.0\DalXML.sourcelink.json
+M:\dot.net project\New folder\dot.net-progect-rachely-and-tehila\DalXML\obj\Debug\net8.0\DalXML.csproj.Up2Date
+M:\dot.net project\New folder\dot.net-progect-rachely-and-tehila\DalXML\obj\Debug\net8.0\DalXML.dll
+M:\dot.net project\New folder\dot.net-progect-rachely-and-tehila\DalXML\obj\Debug\net8.0\refint\DalXML.dll
+M:\dot.net project\New folder\dot.net-progect-rachely-and-tehila\DalXML\obj\Debug\net8.0\DalXML.pdb
+M:\dot.net project\New folder\dot.net-progect-rachely-and-tehila\DalXML\obj\Debug\net8.0\ref\DalXML.dll

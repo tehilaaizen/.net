@@ -1,11 +1,13 @@
-﻿using BO;
+﻿
+
+using BO;
 
 namespace BlApi;
 
 public interface IProduct
 {
     int Create(Product product);
-    Product? Read(int id);
+   Product ? Read(int id);
     Product? Read(Func<Product, bool> filter);
     List<Product?> ReadAll(Func<Product, bool>? filter);
     void Update(Product product);

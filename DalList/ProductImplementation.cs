@@ -3,7 +3,7 @@ using DO;
 
 namespace Dal
 {
-    internal class ProductImplementation : Iproduct
+    internal class ProductImplementation : IProduct
     {
         public int Create(Product product)
         {
